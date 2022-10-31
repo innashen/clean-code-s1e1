@@ -5,20 +5,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="aaa">
+    <div class="header">
       <img src="./eisenhower-matrix.jpg">
-      <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <a class="header-more_info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="topsectionforaddingelementtolist">
+    <div class="main">
+      <p id="make-todo" class="make-todo">
         <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+        <div class="make-todo__form">
           <input id="new-task"class="task" type="text">
           <button>Add</button>
         </div>
       </p>
       <h3>Todo</h3>
-      <ul id="incompletetasks">
+      <ul id="incomplete-tasks">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -28,7 +28,7 @@
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="editmode">
+        <li class="edit-mode">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="go shopping" class="task">
